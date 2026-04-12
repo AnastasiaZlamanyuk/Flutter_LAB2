@@ -1,17 +1,41 @@
-# first_flutter_app
+# Лабораторная работа №2. Знакомство с Flutter. Первое Flutter-приложение.
+Простое Flutter-приложение, созданное в рамках знакомства с кросс-платформенной разработкой. Демонстрирует базовые виджеты, управление состоянием и механизм горячей перезагрузки (Hot Reload).
 
-A new Flutter project.
+## Автор
+- **Имя:** Зламанюк А.А.
+- **Группа:** ИСП-231
 
-## Getting Started
+## Стек и версии
+- **Flutter:** 3.41.2
+- **Dart:** 3.11.0
+- **Платформа:** Web (Chrome)
+- **IDE:** VS Code
 
-This project is a starting point for a Flutter application.
+## Скриншот приложения
+![Скриншот приложения](img/step9_Telyatnikova_Zlamanyuk.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Как запустить
+1. Клонировать репозиторий:
+   ```bash
+   git clone (https://github.com/AnastasiaZlamanyuk/kotlin_LAB2_Flutter.git)
+   ```
+2. Перейти в папку проекта:
+   ```bash
+   cd Flutter_Lab2
+   ```
+3. Установить зависимости:
+   ```bash
+   flutter pub get
+   ```
+4. Запустить в Chrome:
+   ```bash
+   flutter run -d chrome
+   ```
+## Что изучили:
+- Структуру Flutter-проекта и основные папки (`lib/`, платформенные папки)
+- Разницу между `StatelessWidget` и `StatefulWidget`
+- Управление состоянием через `setState()` (аналог `mutableStateOf()` в Jetpack Compose)
+- Горячую перезагрузку (`r`) vs горячий перезапуск (`R`)
+- Базовые виджеты: `MaterialApp`, `Scaffold`, `Container`, `Center`, `Text`
+- Стилизацию текста через `TextStyle` и создание градиентов через `BoxDecoration` + `LinearGradient`
+- Работу с Flutter DevTools и Flutter Inspector
